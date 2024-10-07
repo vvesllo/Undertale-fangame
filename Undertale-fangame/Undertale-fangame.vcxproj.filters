@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Level">
+      <UniqueIdentifier>{42e465f9-c95d-4add-b0b1-8bf259bdedf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Animation">
+      <UniqueIdentifier>{64be1253-bfd4-42ca-80aa-e054a9cf687b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Enemies">
+      <UniqueIdentifier>{0c5f25b7-69f2-4018-b073-032cd241d7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Main">
+      <UniqueIdentifier>{b3789fd7-cf6e-40d8-8632-250887dc9bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Player">
+      <UniqueIdentifier>{c909c6b0-fb19-4017-be47-74c7a6314c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Items">
+      <UniqueIdentifier>{46d9c560-f6bd-4eb9-95ce-3cb175a7bff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Animation">
+      <UniqueIdentifier>{c5d41873-582c-4438-a35a-70de80fcd54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Main">
+      <UniqueIdentifier>{002e999b-26e0-4967-9a79-edc83329a608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Main\Game">
+      <UniqueIdentifier>{3529da4a-373d-4715-8d69-fb4d002fa0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Level">
+      <UniqueIdentifier>{f66bb918-ecdd-48ca-baf3-09a1310626d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Enemies">
+      <UniqueIdentifier>{9601d5c6-3bfe-44fa-a957-d7a41c5e0701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Player">
+      <UniqueIdentifier>{3c07493b-1e7e-4f2a-9ac4-ef4f8fa922f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Items">
+      <UniqueIdentifier>{09a493e5-fde9-4d99-ba61-127b42f4de24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Projectiles">
+      <UniqueIdentifier>{11b012a0-96cf-4f73-ace8-f93bef593747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Projectiles">
+      <UniqueIdentifier>{152f3d5a-48c7-46d0-bf99-cb278455b241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Исходные файлы\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Исходные файлы\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Noise.cpp">
+      <Filter>Исходные файлы\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Исходные файлы\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Исходные файлы\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartShapeObject.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CandyItem.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtyMossItem.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>Исходные файлы\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Исходные файлы\Projectiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков\Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActions.h">
+      <Filter>Файлы заголовков\Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>Файлы заголовков\Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInits.h">
+      <Filter>Файлы заголовков\Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtils.h">
+      <Filter>Файлы заголовков\Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Файлы заголовков\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Файлы заголовков\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Файлы заголовков\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Файлы заголовков\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Файлы заголовков\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Файлы заголовков\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Файлы заголовков\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartShapeObject.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Noise.h">
+      <Filter>Файлы заголовков\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CandyItem.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtyMossItem.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>Файлы заголовков\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Файлы заголовков\Projectiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

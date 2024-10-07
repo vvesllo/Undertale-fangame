@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="9">
+ <objectgroup id="2" name="Solids">
+  <object id="3" name="solid" x="0" y="0" width="260" height="40"/>
+  <object id="4" name="solid" x="0" y="40" width="40" height="260"/>
+  <object id="6" name="solid" x="40" y="260" width="260" height="40"/>
+  <object id="7" name="solid" x="260" y="0" width="40" height="260"/>
+ </objectgroup>
+</map>
